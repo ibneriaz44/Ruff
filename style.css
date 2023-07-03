@@ -1,0 +1,112 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+  
+  /* Style the header */
+  header {
+    background-color: #052d38;
+    color: #fff;
+    padding: 20px;
+  }
+  header :hover {
+    background-color: rgb(4, 148, 148);
+    color: #fff;
+    padding: 30px;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #052d38;
+    color: #fff;
+    padding: 15px;
+  }
+  nav ul {
+    list-style-type: none;
+    float: inline-start;
+  }
+  nav ul li {
+    display: inline-block;
+    padding-inline: 3%;
+
+  }
+  nav ul li :hover {
+    background-color: rgb(224, 61, 88);
+    color: #fff;
+    padding: 10px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the sections */
+  section {
+    padding: 20px;
+  }
+  
+  /* home paragraph */
+  .homeheading :hover{
+    background-color: rgb(4, 148, 148);
+    color: #fff;
+    padding: 50px;
+    font-size: 50px;
+  }
+  /* contact div */
+  .contactdiv :hover{
+    background-color: rgb(4, 148, 148);
+    color: #fff;
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  /* index */
+  .heading {
+    text-align: center;
+    color: #fff;
+    font-display: bolt;
+  }
+  h1 {
+    text-align: center;
+    color: #000;
+  }
+  span {
+    color: rgb(193, 54, 77);
+    font-style: italic;
+  }
+  .p1 {
+    color: #fff;
+    background-color: rgb(17, 110, 110);
+    float: right;
+    width: 40%;
+    margin: 15px;
+    padding: 15px;
+  }
+ 
+  .p2 {
+    color: #fff;
+    background-color: rgb(17, 110, 110);
+    float: left;
+    width: 40%;
+    margin: 15px;
+    padding: 15px;
+  }
+  .divpara :hover{
+    color: #fff;
+    background-color: rgb(17, 110, 110);
+    width: 40%;
+    margin: 15px;
+    padding: 15px;
+    font-size: 30px;
+  }
+  
+   /* Style the footer */
+   footer {
+    background-color: #052d38;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
